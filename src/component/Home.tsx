@@ -12,11 +12,11 @@ function Home() {
     setMousePos({ x, y });
   };
 
-  const imageSrc = "/src/assets/img.jpg";
+  const imageSrc = "/src/assets/img.png";
 
   return (
     <section className="min-h-[calc(100vh-4rem)] flex items-center justify-center ">
-      <div className="w-full max-w-6xl flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-16 p-5 rounded-md border-accent border-b-5 border-l-5">
+      <div className="w-full max-w-6xl flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-16 p-5 rounded-md border-accent border-x-4 border-y-4">
         
         {/* Colonne de gauche : Présentation & Appel à l'action */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-6">
